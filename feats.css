@@ -1,0 +1,78 @@
+html{
+    font-family:sans-serif;
+}
+#CMDs{
+    background-color: rgba(44, 105, 175, 0.623);
+}
+#loader{
+    background-color: rgba(0, 0, 0, 0.199);
+}
+#CMD{
+    background-color: rgba(175, 44, 44, 0.623);
+}
+input[type=number]{
+    width: 150px;
+    border-radius: 0px;
+    background-color: black;
+    box-shadow: none;
+    border-color: black;
+    border-style: none;
+    color: white;
+}
+input[type=url]{
+    width: 300px;
+    border-radius: 0px;
+    background-color: black;
+    box-shadow: none;
+    border-color: black;
+    border-style: none;
+    color: white;
+}
+button{
+    font-weight: 1000;
+    border-radius: 6px;
+    background-image: linear-gradient(to top, #106094, #279be6);
+    background-color: black;
+    box-shadow: none;
+    border-color: black;
+    border-style: none;
+    color: white;
+    cursor:pointer;
+}
+button#submit{
+    font-weight: 1000;
+    border-radius: 6px;
+    background-image: linear-gradient(to top, #941010, #e62727);
+    background-color: black;
+    box-shadow: none;
+    width: 200px;
+    height: 50px;
+    border-color: black;
+    border-style: none;
+    color: white;
+    cursor:pointer;
+}
+button:active{
+    background-image: linear-gradient(to top, #1e84c9, #89d0ff);
+    font-weight: 1000;
+    border-radius: 6px;
+    background-color: rgb(75, 75, 75);
+    box-shadow: none;
+    border-color: rgb(75, 75, 75);
+    border-style: none;
+    color: white;
+    cursor: pointer;
+}
+button#submit:active{
+    width: 200px;
+    height: 50px;
+    background-image: linear-gradient(to top, #c91e1e, #ff8989);
+    font-weight: 1000;
+    border-radius: 6px;
+    background-color: rgb(75, 75, 75);
+    box-shadow: none;
+    border-color: rgb(75, 75, 75);
+    border-style: none;
+    color: white;
+    cursor: pointer;
+}
